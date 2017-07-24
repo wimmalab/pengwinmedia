@@ -186,6 +186,7 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: $main-light;
+  padding: 2em 0 5em 0em;
 }
 
 .container {
@@ -299,6 +300,11 @@ strong {
 
 @media only screen and (max-width: 768px) {
 
+  .note {
+      padding: 15px;
+    }
+
+
   .landing-new {
     background: url(../img/hero-small.jpg);
     background-size: cover;
@@ -321,7 +327,7 @@ strong {
     width: 95%;
 
     p {
-      font-size: 1.4em;
+      font-size: 1.3em;
       margin-bottom: 0;
     }
 
@@ -338,7 +344,9 @@ strong {
     margin-top: 5vh;
 
     p {
-      font-size: 2em;
+      padding-top: 0.5em;
+      padding-bottom: 1em;
+      font-size: 1.4em;
     }
   }
 

@@ -214,6 +214,7 @@ strong {
     font-size: 300%; } }
 @media only screen and (max-width: 768px) {
   .landing-new {
+    background: url(../img/hero-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
@@ -242,10 +243,7 @@ strong {
     display: block;
     margin-top: 5vh; }
     .team-member p {
-      font-size: 2em; }
-
-  .landing-new {
-    background: url(../img/hero-small.jpg); } }
+      font-size: 2em; } }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 
